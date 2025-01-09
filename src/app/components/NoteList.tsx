@@ -27,8 +27,6 @@ function NoteList() {
 
   const handleSubmit = async () => {
     if (file) {
-      const formData = new FormData();
-      formData.append("file", file);
       handleProfileImageUpload(file);
     }
   };
